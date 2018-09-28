@@ -29,10 +29,11 @@ how to upgrade, see **[About versions and upgrading](compose-versioning.md)**.
     Example Compose file version 3
     <i class="chevron fa fa-fw"></i></div>
     <div class="collapse block" id="collapseSample1">
-<pre><code>
+
+```yaml
 version: "3"
 services:
-
+  
   redis:
     image: redis:alpine
     ports:
@@ -122,7 +123,8 @@ networks:
 
 volumes:
   db-data:
-</code></pre>
+```
+
     </div>
 </div>
 
